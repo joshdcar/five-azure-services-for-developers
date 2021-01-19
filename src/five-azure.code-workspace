@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://wsl+ubuntu-20.04/mnt/c/Dev/demos/five-azure-services-for-developers"
+		},
+		{
+			"uri": "vscode-remote://wsl+ubuntu-20.04/mnt/c/Dev/demos/five-azure-services-for-developers/src/app-services/FiveApp"
+		},
+		{
+			"uri": "vscode-remote://wsl+ubuntu-20.04/mnt/c/Dev/demos/five-azure-services-for-developers/src/azure-functions/FiveFunc"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu-20.04",
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	}
+}
