@@ -1,0 +1,20 @@
+﻿@page
+@model FiveApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Version 1.0</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <form method="post" asp-page-handler="Request">
+        <div class="form-group">
+            <label class="control-label">Number of Requests</label>
+            <input asp-for="RequestCount" class="form-control" />
+        </div>
+        <input type="submit" value="Make A Request" class="btn btn-primary" />
+    </form>
+</div>

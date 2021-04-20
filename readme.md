@@ -2,9 +2,9 @@
 
 This sample project demonstrates the use of:
 - Azure App Services
-- Service Bus
 - Azure Functions
-- Cosmos DB
+- CosmosDB
+- Service Bus (queues)
 - Application Insights
 
 ## Prerequisite
@@ -13,8 +13,4 @@ This sample project demonstrates the use of:
 - Azure CLI
 - Azure Subscription
 
-## Deployment
 
-- Execute /deploy/azure-deploy.sh 
-- Publish FiveApp -> App Services
-- Publish FiveFunction -> Azure Functions
